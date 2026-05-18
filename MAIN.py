@@ -2,6 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 
 
+
 def get_exchange_rates():
     url = "https://bank.gov.ua/ua/markets/exchangerates"
     headers = {
